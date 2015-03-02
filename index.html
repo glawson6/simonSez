@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Simon Sez</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="control-panel">
+      <button id="startSimon">Start</button>
+      <button id="submitMovesButton">Submit Player Moves</button>
+  </div>
+
+  <div id="traffic-light">
+    <div><span id="redLight" class="bulb"><a id="redButton" class="inline-a" href="#"></a></span><span id="blueLight" class="bulb"><a id="blueButton" class="inline-a" href="#"></a></span></div>
+    <div><span id="yellowLight" class="bulb"><a id="yellowButton" class="inline-a" href="#"></a></span><span id="greenLight" class="bulb"><a id="greenButton" class="inline-a" href="#"></a></span></div>
+  </div>
+  <audio id="sound-1">
+      <source src="sounds/simonSound1.mp3"></source>
+  </audio>
+  <audio id="sound-2">
+      <source src="sounds/simonSound2.mp3"></source>
+  </audio>
+  <audio id="sound-3">
+      <source src="sounds/simonSound3.mp3"></source>
+  </audio>
+  <audio id="sound-4">
+      <source src="sounds/simonSound4.mp3"></source>
+  </audio>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
